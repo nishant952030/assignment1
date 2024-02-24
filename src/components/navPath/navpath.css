@@ -1,0 +1,21 @@
+
+
+.nav-path {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #626E79;
+    max-width: 64rem;
+    margin: -2rem auto 0 auto;
+    padding: 0 1.5rem;
+}
+
+p span {
+    margin-right: .6rem;
+    margin-left: .6rem;
+    color: #313335;
+
+}

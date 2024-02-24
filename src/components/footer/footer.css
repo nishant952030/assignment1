@@ -1,0 +1,84 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.footer-main {
+    color: #d4d4d4;
+    margin-top: 5rem;
+    width: 100%;
+    height: 18rem;
+    background-color: #212731;
+}
+
+.content-div {
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.categories,
+.contact,
+.country {
+    width: 21.3rem;
+}
+
+.content-div h3 {
+
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.categories,
+.contact,
+.country p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B6BDC4;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width:408px) {
+    .content-div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+    }
+}
+
+.contactDrop,
+.catDrop {
+    position: absolute;
+    bottom: -254rem;
+    right: 4rem;
+    z-index: 30;
+    background-color: #0f1724;
+    width: 8rem;
+    padding: .5rem;
+    border-radius: 12px;
+}

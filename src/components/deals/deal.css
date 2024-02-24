@@ -1,0 +1,137 @@
+
+
+.deal-main {
+    padding: 1.5rem;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.deal-main h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #626E79;
+    margin-bottom: -1rem;
+}
+
+.cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1rem 2rem 1rem 0;
+}
+
+.Card {
+    width: 20.8rem;
+    height: 26.56rem;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 1rem .2rem;
+
+}
+
+.deal-name {
+    text-align: center;
+    color: #626E79;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.Card img {
+    width: 141px;
+    margin: 2.5rem 2rem 1.5rem 6rem
+}
+
+.discount-and-offer {
+    padding: .5rem;
+}
+
+.span-discount,
+.span-limited {
+    padding: .5rem;
+    width: 69px;
+    height: 28px;
+    top: 1992px;
+    left: 1021px;
+    border-radius: 8px;
+    background: #F2F4F7;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #074786;
+}
+
+.about-deal {
+    padding: .8rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #626E79;
+    margin-top: -2.7rem;
+}
+
+.pricing {
+    padding: 0 1rem;
+    margin-top: -1rem;
+}
+
+.discounted-price {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5C6874;
+    margin-right: 1rem;
+}
+
+.actual-price {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9FA9B3;
+    margin-right: 1rem;
+}
+
+.discount {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EF4C5D;
+}
+
+.button {
+    width: 80%;
+    background-color: #1B88F4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-top: .5rem;
+}
+@media (max-width:470px){
+    .deal-main h3{
+        font-size: 2rem;
+    }
+}

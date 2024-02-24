@@ -1,0 +1,49 @@
+
+
+.builder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 64rem;
+    margin: 2rem auto;
+
+}
+
+.builder>:nth-child(1) {
+    margin-left: .3rem;
+}
+
+.builder-name {
+    background-color: #fff;
+    margin-left: 1rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border-radius: 8px;
+    color: #4B5665;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.builder-name:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media (max-width:488px) {
+    .builder-name {
+        padding-right: .5rem;
+    }
+
+}
