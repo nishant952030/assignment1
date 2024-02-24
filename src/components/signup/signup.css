@@ -34,7 +34,7 @@ input:focus{
   background-color: #eeeeee;
 }
 
-button {
+.signup-button {
     width: 97px;
     height: 52px;
     background-color: #1B88F4;

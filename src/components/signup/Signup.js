@@ -6,7 +6,7 @@ const Signup = () => {
           <div className='text'>Sign up and get exclusive special deals</div>
           <div className='input'>
               <input type='text' placeholder='Enter E-mail Id' ></input>
-              <button>SignUp</button>
+        <button className='signup-button'>SignUp</button>
           </div>
     </div>
   )

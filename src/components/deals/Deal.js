@@ -39,11 +39,12 @@ const Deal = () => {
                               
                           </div>
                           <div className='discount-and-offer'>
+                              <p className='deal-name'>{deal.name}</p>
                               <p>
                                   <span className='span-discount'>{deal.discount }% Off</span>
                                   <span className='span-limited'> Limited time</span>
                               </p>
-                              <p className='deal-name'>{deal.name}</p>
+                            
                           </div>
                           <div className='about-deal'>
                               <p>{deal.about}</p>
@@ -53,7 +54,7 @@ const Deal = () => {
                               <span className='actual-price'>${deal.price}</span>
                               <span className='discount'>({deal.discount}% Off)</span>
                           </div>
-                          <button className='button'>View Deal</button>
+                          <button className='deal-button'>View Deal</button>
                       </div>
                   ))
               }

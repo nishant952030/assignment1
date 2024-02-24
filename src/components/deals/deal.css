@@ -118,7 +118,7 @@
     color: #EF4C5D;
 }
 
-.button {
+.deal-button {
     width: 80%;
     background-color: #1B88F4;
     font-size: 16px;
@@ -129,6 +129,11 @@
     border-radius: 12px;
     margin-left: 10%;
     margin-top: .5rem;
+    color: #F2F4F7;
+    outline: none;
+    border: none;
+    height: 3rem;
+
 }
 @media (max-width:470px){
     .deal-main h3{
